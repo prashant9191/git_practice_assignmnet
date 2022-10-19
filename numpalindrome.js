@@ -1,11 +1,9 @@
 let num = 1221;
 let text = num.toString();
 let bag = "";
-for (let i =text.length-1; i >=0; i--) {
+for (let i =0; i >=text.length; i--) {
   bag += text[i];
 }
 if (bag == num) {
   console.log("yes");
-}else {
-  console.log("No");
 }
